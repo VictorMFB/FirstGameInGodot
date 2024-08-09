@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbsueieoaj6b6"]
+
+[ext_resource type="PackedScene" uid="uid://bci0kquvvn606" path="res://Mapas/mapa.tscn" id="1_r4h0s"]
+[ext_resource type="PackedScene" uid="uid://qdp7urcf0as6" path="res://Objetos/Player/knight.tscn" id="2_2f4p4"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Mapa" parent="." instance=ExtResource("1_r4h0s")]
+position = Vector2(-223, 229)
+scale = Vector2(3, 3)
+
+[node name="Knight" parent="." instance=ExtResource("2_2f4p4")]
+position = Vector2(429, 257)
+scale = Vector2(3, 3)
